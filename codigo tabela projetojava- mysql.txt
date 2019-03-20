@@ -1,0 +1,8 @@
+create database projetojava;
+use projetojava;
+CREATE TABLE usuario (
+id BIGINT(10) AUTO_INCREMENT,
+nome VARCHAR(20),
+panela VARCHAR(2),
+PRIMARY KEY (id)
+);
